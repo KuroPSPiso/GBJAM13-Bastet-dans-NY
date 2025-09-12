@@ -1,0 +1,51 @@
+{
+  "_resourceType": "script",
+  "id": "442fdce9-f737-46ac-bdf0-388cbb33f943",
+  "name": "TrackVelocity",
+  "description": "",
+  "variables": {
+    "V4": {
+      "id": "V4",
+      "name": "Variable E",
+      "passByReference": true
+    },
+    "V9": {
+      "id": "V9",
+      "name": "Variable J",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "V9",
+        "vectorY": "V4",
+        "__collapse": false,
+        "units": "pixels"
+      },
+      "id": "915348d9-d4db-4f51-98a5-becafdf346e5"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "1",
+        "expression": "$V4$ < $00$"
+      },
+      "id": "45ecc44c-feb7-4391-a3dc-43f85603c0d2"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "V9",
+        "vectorY": "0",
+        "units": "pixels"
+      },
+      "id": "810cd39c-259a-491b-8d4d-bca79c6bd929"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "yPos",
+      "symbol": "var_ypos"
+    },
+    {
+      "id": "1",
+      "name": "isFalling",
+      "symbol": "var_isfalling"
+    },
+    {
+      "id": "2",
+      "name": "isAFK",
+      "symbol": "var_isafk"
+    },
+    {
+      "id": "245ba1fd-1344-4804-ac78-600ac008172d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "3",
+      "name": "BG_00",
+      "symbol": "var_bg_00"
+    },
+    {
+      "id": "4",
+      "name": "BG_01",
+      "symbol": "var_bg_01"
+    }
+  ]
+}

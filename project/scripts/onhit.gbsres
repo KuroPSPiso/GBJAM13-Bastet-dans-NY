@@ -1,0 +1,76 @@
+{
+  "_resourceType": "script",
+  "id": "e4b0382c-1dac-4e7f-83b3-6773f5b32cbc",
+  "name": "OnHit",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "377435e0-81a9-4ced-8fa7-616ab4b4f550"
+      },
+      "id": "ce366df4-e92b-4d82-aae5-bbc2e734e3c8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25
+      },
+      "id": "2090ea75-dfab-4585-b48b-05566a2f56ed"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "5d0fad6e-c219-4637-9123-dc32e2135615"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Pain",
+        "loopAnim": false
+      },
+      "id": "6f6c7f2c-29f7-43af-bab6-0a4a057caea4"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 40,
+        "units": "frames"
+      },
+      "id": "cc09b8a9-89e5-433c-a659-d7ec5e2fa16a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "6f812c82-0778-481a-94b5-867a8b345c54"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "48a7a9e8-3eb4-4ff2-98cf-bc93a7a5c039"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c860bcc5-624c-495a-8e3e-f1e96815399f"
+      },
+      "id": "9de7e54e-eaa7-45bc-ba14-4d62e0e7bcbb"
+    }
+  ]
+}

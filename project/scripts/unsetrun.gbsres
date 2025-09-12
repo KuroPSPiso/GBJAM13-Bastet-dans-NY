@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "377435e0-81a9-4ced-8fa7-616ab4b4f550",
+  "name": "UnsetRun",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 1
+      },
+      "id": "76242b38-5f0a-4bca-b688-76659606f0b3"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 0
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 198
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 3000
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 6000
+    }
+  ]
+}

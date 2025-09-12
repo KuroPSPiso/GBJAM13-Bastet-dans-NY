@@ -1,0 +1,151 @@
+{
+  "_resourceType": "script",
+  "id": "c860bcc5-624c-495a-8e3e-f1e96815399f",
+  "name": "SetRun",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_INPUT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "1"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "$self$",
+                                "spriteStateId": "runningFalling",
+                                "loopAnim": true
+                              },
+                              "id": "46c3a342-6967-4052-87d4-82de3b2e81b8"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "$self$",
+                                "spriteStateId": "running",
+                                "loopAnim": true
+                              },
+                              "id": "84d702d8-b501-4923-afcd-950254e886af"
+                            }
+                          ]
+                        },
+                        "id": "df2af001-97d4-4785-88fb-cc5aa75bc36e"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                        "args": {
+                          "actorId": "$self$",
+                          "speed": 7
+                        },
+                        "id": "5b2dd354-b4d7-4f97-8b9d-1a401b3eb417"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "1"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "$self$",
+                                "spriteStateId": "DefaultFalling",
+                                "loopAnim": true
+                              },
+                              "id": "01e21913-d264-40f6-893c-94c45500c6c5"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "$self$",
+                                "spriteStateId": "",
+                                "loopAnim": true
+                              },
+                              "id": "dd196fb6-70fc-461a-9c49-52601470b9d1"
+                            }
+                          ]
+                        },
+                        "id": "43c88cba-64d4-4274-9e3f-b5680729d139"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                        "args": {
+                          "actorId": "$self$",
+                          "speed": 15
+                        },
+                        "id": "e9a699b2-2b8e-4b66-8ea2-165a8a9fade7"
+                      }
+                    ]
+                  },
+                  "id": "f615679e-02ba-4137-abd3-31a3a466290d"
+                }
+              ],
+              "false": []
+            },
+            "id": "13ff6e5b-36bd-46fa-9881-8a256cff34b0"
+          }
+        ]
+      },
+      "id": "bdb723dc-72ec-4df8-a509-b01147d16e29"
+    }
+  ]
+}

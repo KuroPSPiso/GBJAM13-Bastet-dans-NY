@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4964c1f8-8e3a-4332-85fd-ae10d1e40351",
+  "name": "raintest",
+  "symbol": "bg_raintest",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "raintest.png",
+  "tileColors": ""
+}
