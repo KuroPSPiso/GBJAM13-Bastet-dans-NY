@@ -35,6 +35,11 @@
       "id": "5",
       "name": "TILE_RAIN",
       "symbol": "var_tile_rain"
+    },
+    {
+      "id": "73a1cb91-247e-4524-b3d4-b573a033a8f5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }
