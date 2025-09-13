@@ -17,11 +17,6 @@
       "symbol": "var_isafk"
     },
     {
-      "id": "245ba1fd-1344-4804-ac78-600ac008172d__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
       "id": "3",
       "name": "BG_00",
       "symbol": "var_bg_00"
@@ -30,6 +25,16 @@
       "id": "4",
       "name": "BG_01",
       "symbol": "var_bg_01"
+    },
+    {
+      "id": "245ba1fd-1344-4804-ac78-600ac008172d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "5",
+      "name": "TILE_RAIN",
+      "symbol": "var_tile_rain"
     }
   ]
 }

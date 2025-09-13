@@ -1,0 +1,58 @@
+{
+  "_resourceType": "script",
+  "id": "4bf2876c-6a40-4ab2-a137-9b6c4a0316b7",
+  "name": "AnimateRain",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "($05$ == 0) || ($05$ >= 43)"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "number",
+                "value": 40
+              }
+            },
+            "id": "307a61c1-f0ce-4a47-b211-cb5b3c803854"
+          }
+        ],
+        "false": []
+      },
+      "id": "1448a57d-f6e3-4d33-be51-1bba825ea86d"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_REPLACE_TILE_XY 0, 10, ___bank_bg_extras_tileset, _bg_extras_tileset, VAR_TILE_RAIN",
+        "references": [
+          {
+            "type": "variable",
+            "id": "5"
+          }
+        ]
+      },
+      "id": "2c80a81e-aa63-480c-b356-e4880552a44e"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "5"
+      },
+      "id": "9db02aeb-2c25-48f3-bfa0-fe54aaa10bc6"
+    }
+  ]
+}

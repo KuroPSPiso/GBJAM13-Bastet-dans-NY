@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4f5be212-69f5-4cd0-b507-639f826d0420",
+  "name": "extras",
+  "symbol": "bg_extras",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "extras.png",
+  "tileColors": ""
+}

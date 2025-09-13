@@ -10,7 +10,7 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002e0+0f20+00100+",
+  "collisions": "00140+0f!0019f+0f20+00100+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 112,
@@ -31,7 +31,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "7fde2a13-91f4-4eaa-b16e-bbc587f1851f"
     },
@@ -42,118 +43,10 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "aed2f38f-0d8e-443d-a6e0-aabc71a662db"
-    },
-    {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 2,
-        "duration": 0.5,
-        "frames": 8,
-        "__scriptTabs": "end",
-        "units": "frames"
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_SET_PALETTE_COLORS",
-            "args": {
-              "sys": "dmg",
-              "pal": "BGP",
-              "c0": {
-                "type": "variable",
-                "value": "3"
-              },
-              "c1": {
-                "type": "variable",
-                "value": "4"
-              },
-              "c2": {
-                "type": "number",
-                "value": 3
-              },
-              "c3": {
-                "type": "number",
-                "value": 2
-              },
-              "type": "Bkg",
-              "cpal": 1,
-              "cc0": true,
-              "r0": {
-                "type": "number",
-                "value": 29
-              },
-              "g0": {
-                "type": "number",
-                "value": 31
-              },
-              "b0": {
-                "type": "number",
-                "value": 28
-              },
-              "cc1": true,
-              "r1": {
-                "type": "number",
-                "value": 22
-              },
-              "g1": {
-                "type": "number",
-                "value": 30
-              },
-              "b1": {
-                "type": "number",
-                "value": 17
-              },
-              "cc2": true,
-              "r2": {
-                "type": "number",
-                "value": 10
-              },
-              "g2": {
-                "type": "number",
-                "value": 19
-              },
-              "b2": {
-                "type": "number",
-                "value": 15
-              },
-              "cc3": true,
-              "r3": {
-                "type": "number",
-                "value": 4
-              },
-              "g3": {
-                "type": "number",
-                "value": 5
-              },
-              "b3": {
-                "type": "number",
-                "value": 10
-              }
-            },
-            "id": "67484f16-a82d-4233-a79e-5ca55d5ba01f"
-          },
-          {
-            "command": "EVENT_VARIABLE_MATH_EVALUATE",
-            "args": {
-              "variable": "3",
-              "expression": "1 - $03$ "
-            },
-            "id": "2f87e2e6-da3c-40ae-96bd-37e09e7ae0bf"
-          },
-          {
-            "command": "EVENT_VARIABLE_MATH_EVALUATE",
-            "args": {
-              "variable": "4",
-              "expression": "1 - $04$"
-            },
-            "id": "8f54ce49-7d3c-40bf-a11c-a8aa42c4e478"
-          }
-        ]
-      },
-      "id": "8271c04b-6a04-4863-acde-72c79ec649ea"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -199,6 +92,27 @@
                     "loopAnim": true
                   },
                   "id": "7a5f8afe-1e02-43a3-a73f-05d999f7008d"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 15,
+                    "duration": 0.2,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "c5e803ad-753c-4fcc-a204-6083b07db54e"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 31
+                  },
+                  "id": "380a749c-e3fb-4dfa-8dba-6ac320b32035"
                 }
               ],
               "false": [
@@ -278,7 +192,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -332,6 +246,36 @@
         ]
       },
       "id": "e2869a64-4405-47d4-9557-fc5ff7a9320c"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bfd017a6-db2d-4a01-9b5d-5c0e00e08a19",
+        "__collapse": true
+      },
+      "id": "841a1f4c-80ce-420d-9b9f-41c12efa89f6"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.5,
+        "frames": 4,
+        "__scriptTabs": "end",
+        "units": "frames"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4bf2876c-6a40-4ab2-a137-9b6c4a0316b7"
+            },
+            "id": "842792d0-ef6b-4b3a-8f3d-f7581004f7ef"
+          }
+        ]
+      },
+      "id": "7db7e6b1-8853-4652-9a5e-ae9bebd6b12d"
     }
   ],
   "playerHit1Script": [],
