@@ -13,8 +13,8 @@
   "collisions": "00140+0f!0019f+0f20+00100+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 112,
-  "y": 200,
+  "x": 456,
+  "y": 400,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -248,21 +248,14 @@
       "id": "e2869a64-4405-47d4-9557-fc5ff7a9320c"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "bfd017a6-db2d-4a01-9b5d-5c0e00e08a19",
-        "__collapse": true
-      },
-      "id": "841a1f4c-80ce-420d-9b9f-41c12efa89f6"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
         "duration": 0.5,
         "frames": 4,
         "__scriptTabs": "end",
-        "units": "frames"
+        "units": "frames",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -276,6 +269,14 @@
         ]
       },
       "id": "7db7e6b1-8853-4652-9a5e-ae9bebd6b12d"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "96505eaf-2c4b-4298-807e-cd33444641c2",
+        "__collapse": false
+      },
+      "id": "841a1f4c-80ce-420d-9b9f-41c12efa89f6"
     }
   ],
   "playerHit1Script": [],
