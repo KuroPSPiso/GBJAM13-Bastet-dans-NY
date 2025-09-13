@@ -5,7 +5,7 @@
   "symbol": "sprite_bastet",
   "numFrames": 22,
   "filename": "bastet.png",
-  "checksum": "44ae9a2d289dadb282ea7295204030a3738476d3",
+  "checksum": "fd339f59742efee2ab26f6543b4ff1d47f85fa11",
   "width": 352,
   "height": 32,
   "states": [
@@ -1615,6 +1615,19 @@
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
+                },
+                {
+                  "id": "25e74cad-3567-49de-b5c2-0cd4388310ed",
+                  "x": -8,
+                  "y": -3,
+                  "sliceX": 64,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
                 }
               ]
             },
@@ -1622,9 +1635,22 @@
               "id": "f77bdc81-dabf-462f-9780-f973e7428076",
               "tiles": [
                 {
+                  "id": "0c2d1760-7a30-4db3-bf15-6eae549f1360",
+                  "x": -8,
+                  "y": -4,
+                  "sliceX": 64,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
                   "id": "11524b24-2006-42ef-8f0b-615dda410d9a",
                   "x": -8,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 224,
                   "sliceY": 0,
                   "palette": 0,
@@ -1635,22 +1661,9 @@
                   "priority": false
                 },
                 {
-                  "id": "380889d3-e08c-4f45-adec-7d8c6458bc7a",
-                  "x": -8,
-                  "y": 0,
-                  "sliceX": 224,
-                  "sliceY": 16,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                },
-                {
                   "id": "0890c3e3-1aa4-49d1-80e4-e7d0e9822fea",
                   "x": 0,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 232,
                   "sliceY": 0,
                   "palette": 0,
@@ -1663,7 +1676,7 @@
                 {
                   "id": "f43b690b-f023-4537-8c44-e35675433323",
                   "x": 0,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 232,
                   "sliceY": 16,
                   "palette": 0,
@@ -1676,7 +1689,7 @@
                 {
                   "id": "408eb749-0aa1-4494-8e5c-d0d257487744",
                   "x": 8,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 240,
                   "sliceY": 0,
                   "palette": 0,
@@ -1689,7 +1702,7 @@
                 {
                   "id": "ae937292-8050-43a6-b48a-da567bada607",
                   "x": 8,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 240,
                   "sliceY": 16,
                   "palette": 0,
@@ -1702,7 +1715,7 @@
                 {
                   "id": "56ba7736-fbc1-4d03-b9da-e72c98a8ca71",
                   "x": 16,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 248,
                   "sliceY": 0,
                   "palette": 0,
@@ -1715,7 +1728,7 @@
                 {
                   "id": "b32c97a0-b567-46b8-90a0-a40d5f9cfead",
                   "x": 16,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 248,
                   "sliceY": 16,
                   "palette": 0,
@@ -3168,6 +3181,19 @@
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
+                },
+                {
+                  "id": "69362a7b-5cf2-4850-b792-df85626cd589",
+                  "x": -8,
+                  "y": -3,
+                  "sliceX": 64,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
                 }
               ]
             },
@@ -3177,7 +3203,7 @@
                 {
                   "id": "27f75b73-4d7b-488e-b1d0-020947c8dd3b",
                   "x": -8,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 224,
                   "sliceY": 0,
                   "palette": 0,
@@ -3190,7 +3216,7 @@
                 {
                   "id": "1878d5f1-b10e-46ad-a002-67aec038cb06",
                   "x": -8,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 224,
                   "sliceY": 16,
                   "palette": 0,
@@ -3203,7 +3229,7 @@
                 {
                   "id": "2795a0f9-72c7-4eb5-963c-c87179aaa314",
                   "x": 0,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 232,
                   "sliceY": 0,
                   "palette": 0,
@@ -3216,7 +3242,7 @@
                 {
                   "id": "b2283bcb-7f8f-42ca-be73-ee5385ba37b4",
                   "x": 0,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 232,
                   "sliceY": 16,
                   "palette": 0,
@@ -3229,7 +3255,7 @@
                 {
                   "id": "5d35e8f5-1ccc-4075-9dc6-d6c5c5be32bc",
                   "x": 8,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 240,
                   "sliceY": 0,
                   "palette": 0,
@@ -3242,7 +3268,7 @@
                 {
                   "id": "bdd1dcb7-f554-4b03-b201-fa8d69edc41f",
                   "x": 8,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 240,
                   "sliceY": 16,
                   "palette": 0,
@@ -3255,7 +3281,7 @@
                 {
                   "id": "f8d3072e-b032-4497-b231-5563a0c15018",
                   "x": 16,
-                  "y": 16,
+                  "y": 15,
                   "sliceX": 248,
                   "sliceY": 0,
                   "palette": 0,
@@ -3268,12 +3294,25 @@
                 {
                   "id": "42077919-1d14-4abb-a0d1-c2a0b6d8bada",
                   "x": 16,
-                  "y": 0,
+                  "y": -1,
                   "sliceX": 248,
                   "sliceY": 16,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "61b6649b-1b16-4d8e-a101-0f7102ee877a",
+                  "x": -8,
+                  "y": -4,
+                  "sliceX": 64,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
@@ -3724,6 +3763,19 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "3fb8d5f1-686d-4e6a-b17b-51d69168227e",
+                  "x": -8,
+                  "y": -6,
+                  "sliceX": 64,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": true,
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
@@ -4758,7 +4810,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 72,
+  "numTiles": 69,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
