@@ -8,5 +8,6 @@
   "imageWidth": 240,
   "imageHeight": 280,
   "filename": "end.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

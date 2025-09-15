@@ -45,6 +45,16 @@
       "id": "62686800-3a68-42a3-bf19-a45c26e25846__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "680d4394-f46e-4a3b-bf95-92339af2c4de__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "8e0f21fd-de58-4bb1-a19e-6b3713c666e2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
     }
   ]
 }

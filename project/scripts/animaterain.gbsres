@@ -621,7 +621,7 @@
                         "command": "EVENT_ACTOR_SET_STATE",
                         "args": {
                           "actorId": "$self$",
-                          "spriteStateId": "Pain",
+                          "spriteStateId": "Startled",
                           "loopAnim": false
                         },
                         "id": "a274ea4a-3839-47ff-b2da-cc415a167577"

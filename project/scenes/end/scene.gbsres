@@ -10,7 +10,7 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0029+012+00b5+015+00!015+0018+0f!001d+0f!001d+0f!001d+0f!026+0018+01a+0047+012+00b5+015+0083+0f13+014+0f7+00f0+",
+  "collisions": "0029+012+00b5+015+00!015+0018+0f!001d+0f!001d+0f!006+103+0014+0f!026+103+0015+016+102+11!01!001a+103+001b+103+001b+103+001b+103+001c+102+0069+015+0083+0f13+014+0f7+00f0+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 128,
@@ -273,7 +273,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "96505eaf-2c4b-4298-807e-cd33444641c2",
+        "musicId": "039cd527-4ad1-4215-a334-2e682eec1d89",
         "__collapse": false
       },
       "id": "4ebd409e-22ad-4483-8e7e-a20b2b7b0cf6"
