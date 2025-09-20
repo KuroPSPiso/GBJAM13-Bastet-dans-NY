@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1c816b8b-d1a4-4203-a337-fc31f718bae0",
+  "name": "intro-00",
+  "symbol": "bg_pixil_frame_4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "intro-00.png",
+  "tileColors": "",
+  "autoColor": false
+}

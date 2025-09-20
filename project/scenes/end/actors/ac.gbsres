@@ -1,0 +1,153 @@
+{
+  "_resourceType": "actor",
+  "id": "a9627791-1380-4213-aba1-ee45d983bf9f",
+  "name": "AC",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "10909878-4a80-49b3-a7c0-b2e21285d7db",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 2,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "Pain",
+              "loopAnim": false,
+              "__collapse": false
+            },
+            "id": "dbeac1bb-010d-462c-a4b6-0426ff18f060"
+          },
+          {
+            "command": "EVENT_SCRIPT_LOCK",
+            "args": {},
+            "id": "51702c2f-9f0e-4eb4-9f7d-6db176946f1b"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "shakeDirection": "vertical",
+              "magnitude": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "3a3f0125-86c1-4a28-91a7-02ffe7b43122"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 10,
+              "units": "frames"
+            },
+            "id": "7f719e14-2885-42bb-a541-11b5c311e7d4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "8cd90831-b34a-41db-a793-09b7570236a4"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e66ad98c-3ad4-4166-a945-0dd496052c01"
+          }
+        ],
+        "false": []
+      },
+      "id": "429c1bf3-d0eb-4667-aec9-3920cd0dfa08"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "1b1dcbc6-c062-4a06-99e9-a863087a769e"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "d81a3d97-3c91-4ca5-b9c5-b7b8101a5c9f"
+          }
+        ],
+        "false": []
+      },
+      "id": "23c63143-8cb4-428f-8f1e-90b30518533e"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 11,
+  "y": 16,
+  "_index": 0
+}

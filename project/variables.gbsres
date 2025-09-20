@@ -27,19 +27,59 @@
       "symbol": "var_bg_01"
     },
     {
-      "id": "245ba1fd-1344-4804-ac78-600ac008172d__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
       "id": "5",
       "name": "TILE_RAIN",
       "symbol": "var_tile_rain"
     },
     {
+      "id": "245ba1fd-1344-4804-ac78-600ac008172d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
       "id": "73a1cb91-247e-4524-b3d4-b573a033a8f5__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "62686800-3a68-42a3-bf19-a45c26e25846__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "680d4394-f46e-4a3b-bf95-92339af2c4de__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "8e0f21fd-de58-4bb1-a19e-6b3713c666e2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "cd9ee8fb-124f-4b32-b7da-a00942a1f49a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "a20a845d-635b-4b88-a0df-5758e87eeb44__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "89d9312f-69e2-40fe-8a41-b2ead3a1323b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "e591687c-efd9-4859-b573-4a0fc615df84__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "eb23621c-b249-4976-b94c-444bd6144a5b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
     }
   ]
 }
