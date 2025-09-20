@@ -13,8 +13,8 @@
   "collisions": "0029+012+00b5+015+00!015+0018+0f!001d+0f!001d+0f!006+103+0014+0f!026+103+0015+016+102+11!01!001a+103+001b+103+001b+103+001b+103+001c+102+0069+015+0083+0f13+014+0f7+00f0+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 128,
-  "y": 296,
+  "x": 584,
+  "y": 520,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -164,7 +164,7 @@
         "frames": 4,
         "__scriptTabs": "end",
         "units": "frames",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -192,7 +192,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -219,7 +219,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -274,7 +274,7 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "039cd527-4ad1-4215-a334-2e682eec1d89",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4ebd409e-22ad-4483-8e7e-a20b2b7b0cf6"
     }
@@ -282,5 +282,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2a95157d-b58f-417c-b6ca-564677b974f5"
+  "playerSpriteSheetId": "2a95157d-b58f-417c-b6ca-564677b974f5",
+  "autoFadeEventCollapse": true
 }

@@ -55,6 +55,31 @@
       "id": "8e0f21fd-de58-4bb1-a19e-6b3713c666e2__L0",
       "name": "Local 0",
       "symbol": "var_local_5"
+    },
+    {
+      "id": "cd9ee8fb-124f-4b32-b7da-a00942a1f49a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "a20a845d-635b-4b88-a0df-5758e87eeb44__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "89d9312f-69e2-40fe-8a41-b2ead3a1323b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "e591687c-efd9-4859-b573-4a0fc615df84__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "eb23621c-b249-4976-b94c-444bd6144a5b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
     }
   ]
 }
