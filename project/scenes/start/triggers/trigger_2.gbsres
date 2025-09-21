@@ -11,6 +11,33 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b0788cea-d062-45e8-93cc-b04be09e0ebe"
+      },
+      "id": "2f4edfb9-7c3e-4315-aa07-2daac3964c8b"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "eb556549-6f50-42b1-ade9-c4538adc71fb"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "75283493-070a-4036-8ed7-ba4545158c39"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "1067ba39-b786-46d5-80d0-b309ff5bf90d"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "62686800-3a68-42a3-bf19-a45c26e25846",

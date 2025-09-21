@@ -1,9 +1,9 @@
 {
   "_resourceType": "music",
   "id": "eca3cb73-27f7-4769-9f1f-166479c08f73",
-  "name": "RainyCity_v2",
+  "name": "main_menu_temp",
   "symbol": "song_rainycity_v2",
-  "filename": "RainyCity_v2.uge",
+  "filename": "main_menu_temp.uge",
   "settings": {},
   "type": "uge"
 }

@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "416c45cf-d30c-4795-a6e5-bb7512ae8740",
+  "name": "death_counter",
+  "symbol": "song_death_counter",
+  "filename": "death_counter.uge",
+  "settings": {},
+  "type": "uge"
+}

@@ -32,7 +32,7 @@
                   "flipY": false,
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
-                  "priority": false
+                  "priority": true
                 },
                 {
                   "id": "ac8ebab4-da51-49dd-9b64-22dcad80aece",
@@ -45,7 +45,7 @@
                   "flipY": false,
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
-                  "priority": false
+                  "priority": true
                 }
               ]
             }

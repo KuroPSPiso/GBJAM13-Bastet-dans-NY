@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a078f9ed-768c-40fb-9882-9869cfc8f5e2",
+  "name": "made-by",
+  "symbol": "bg_made_by",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "made-by.png",
+  "tileColors": ""
+}

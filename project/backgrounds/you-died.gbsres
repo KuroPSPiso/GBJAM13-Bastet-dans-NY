@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6f033aa7-c1a0-4b70-8ef1-e9af571e9119",
+  "name": "you-died",
+  "symbol": "bg_you_died",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "you-died.png",
+  "tileColors": ""
+}
