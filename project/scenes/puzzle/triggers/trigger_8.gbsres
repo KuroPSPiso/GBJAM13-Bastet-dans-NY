@@ -1,0 +1,29 @@
+{
+  "_resourceType": "trigger",
+  "id": "69c9ca7d-1b4a-4520-914f-c7229dadeb36",
+  "name": "",
+  "prefabId": "",
+  "x": 60,
+  "y": 41,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 10,
+        "duration": 0.2,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "0d9a744b-8002-49f1-a420-91c633bb17ee"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 7
+}

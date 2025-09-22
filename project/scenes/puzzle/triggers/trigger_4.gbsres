@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "1ba65cb5-5c3c-470d-98db-9d795d2bcc40",
+  "name": "",
+  "prefabId": "",
+  "x": 50,
+  "y": 25,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "9e143af9-10e9-49bb-9004-fdc7292f6d8c"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "dfbd90d9-82df-47ae-b5fe-b4bd9df777ba"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2
+      },
+      "id": "05c33dc0-9f96-4efa-822e-8e55dba7bf4b"
+    },
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 3
+      },
+      "id": "86ab9baa-5b16-4f90-b185-68c4e45606b9"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "73471e70-fc13-4685-a6ea-c3dc61e85443"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Startled",
+        "loopAnim": true
+      },
+      "id": "974efa71-144d-4b14-a0d1-22521ff5b267"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b0788cea-d062-45e8-93cc-b04be09e0ebe"
+      },
+      "id": "c6ddbcf1-e88c-41fb-b8e6-197553a416e9"
+    }
+  ],
+  "_index": 3
+}

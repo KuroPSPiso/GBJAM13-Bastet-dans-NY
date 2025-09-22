@@ -1,0 +1,75 @@
+{
+  "_resourceType": "scene",
+  "id": "4cc4c36c-7670-4bea-ac13-7ce7a62b0ea0",
+  "_index": 18,
+  "name": "boss-01",
+  "backgroundId": "5b970095-e8fc-45e0-8d85-a0695c431183",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 1672,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1.5,
+        "frames": 30
+      },
+      "id": "30ab2f29-b061-41a1-996c-e141d78c3c80"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "WHO GOES THERE",
+          "..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e05e8c67-c38f-4438-bcac-63161113e6f1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "361f9f45-9e16-47ae-8d1a-1c80f4975863",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a723d488-97e5-4757-97b7-bc1e94e421d2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a16f7fe7-caa7-4d4b-b6a0-80a531acd042"
+}

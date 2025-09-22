@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8b299ffb-34f1-4b89-9a4e-eaa6eb36c4ed",
+  "name": "boss-attack-00",
+  "symbol": "bg_boss_attack_00",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "boss-attack-00.png",
+  "tileColors": ""
+}

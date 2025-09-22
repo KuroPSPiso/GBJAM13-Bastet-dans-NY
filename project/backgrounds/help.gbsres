@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9d4a7fa4-81a8-433a-bcab-54cdceed6032",
+  "name": "help",
+  "symbol": "bg_help",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "help.png",
+  "tileColors": ""
+}

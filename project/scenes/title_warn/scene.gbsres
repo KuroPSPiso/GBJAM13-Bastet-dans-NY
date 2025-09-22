@@ -17,26 +17,17 @@
   "y": 64,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "568d26d2-44d4-44a9-882d-ba2c976f4bbd"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
         "frames": 30
       },
       "id": "dc1952eb-47f0-45a2-9613-3f7208d1ca6f"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "416c45cf-d30c-4795-a6e5-bb7512ae8740"
-      },
-      "id": "119af59e-5337-4743-9d72-b836c01cc0f0"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "fb4e8b7e-4a79-4013-b2c3-019cd1b4a6c7"
-      },
-      "id": "b175e79c-e49f-46fb-b423-5fa11592c2f5"
     },
     {
       "command": "EVENT_WAIT",

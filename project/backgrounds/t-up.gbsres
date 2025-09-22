@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "533e1e25-50c9-48f0-9617-37680f743c99",
+  "name": "t-up",
+  "symbol": "bg_t_up",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "t-up.png",
+  "tileColors": ""
+}

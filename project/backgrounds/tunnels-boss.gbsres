@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e7d232be-8b9f-4caa-a6bc-7660d2ec23e2",
+  "name": "tunnels-boss",
+  "symbol": "bg_tunnels_boss",
+  "width": 64,
+  "height": 48,
+  "imageWidth": 512,
+  "imageHeight": 384,
+  "filename": "tunnels-boss.png",
+  "tileColors": ""
+}

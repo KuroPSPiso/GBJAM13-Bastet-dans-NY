@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "856601ba-5687-4535-86b6-851947a0717a",
+  "_index": 17,
+  "name": "boss-00",
+  "backgroundId": "e3329586-9a58-4436-9653-2214b3df0292",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 1480,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "ecc1fe1b-29c3-456e-8c3e-3d38e8de843a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4cc4c36c-7670-4bea-ac13-7ce7a62b0ea0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 3
+      },
+      "id": "cd59535d-bf17-4f27-b2cc-83bbf0a7df58"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a16f7fe7-caa7-4d4b-b6a0-80a531acd042"
+}

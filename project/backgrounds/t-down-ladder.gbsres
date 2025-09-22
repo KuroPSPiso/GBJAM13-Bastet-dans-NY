@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4afd27b4-cfce-41a9-a48a-b95d9b84b3cd",
+  "name": "t-down-ladder",
+  "symbol": "bg_t_down_ladder",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "t-down-ladder.png",
+  "tileColors": ""
+}

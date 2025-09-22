@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8a437438-cea1-4939-a541-5617a19475fa",
+  "name": "black",
+  "symbol": "bg_i_ladder_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "black.png",
+  "tileColors": ""
+}

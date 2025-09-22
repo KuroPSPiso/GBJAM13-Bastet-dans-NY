@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6a221013-850c-407f-8411-db7350bbc61a",
+  "name": "bad-end",
+  "symbol": "bg_you_died_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bad-end.png",
+  "tileColors": ""
+}

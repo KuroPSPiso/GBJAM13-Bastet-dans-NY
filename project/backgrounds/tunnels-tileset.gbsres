@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bd20ee4e-3aae-4768-b718-8f3ab46f3cf2",
+  "name": "tunnels-tileset",
+  "symbol": "bg_tunnels_tileset",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tunnels-tileset.png",
+  "tileColors": ""
+}

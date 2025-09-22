@@ -1,0 +1,75 @@
+{
+  "_resourceType": "scene",
+  "id": "a6283e98-9f5e-41a1-9da9-9741c38c91cc",
+  "_index": 22,
+  "name": "boss-attack-00",
+  "backgroundId": "8b299ffb-34f1-4b89-9a4e-eaa6eb36c4ed",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 2576,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "8e616a22-b4dd-41d8-ab3c-a440443e2b10"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "DIDN'T I SAY!",
+          "SCRAM!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f665d844-bdb2-413b-8518-7de1eec45c99"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "32116bed-6dfd-4181-9f24-b7c92625a194",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "07fa572e-6ec9-42cc-8b4c-ab402ca4e275"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a16f7fe7-caa7-4d4b-b6a0-80a531acd042"
+}

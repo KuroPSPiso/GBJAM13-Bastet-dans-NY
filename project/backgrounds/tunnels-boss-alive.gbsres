@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "97141381-2618-4141-8522-1bb4128de26b",
+  "name": "tunnels-boss-alive",
+  "symbol": "bg_tunnels_boss_alive",
+  "width": 64,
+  "height": 48,
+  "imageWidth": 512,
+  "imageHeight": 384,
+  "filename": "tunnels-boss-alive.png",
+  "tileColors": ""
+}

@@ -80,6 +80,16 @@
       "id": "eb23621c-b249-4976-b94c-444bd6144a5b__L0",
       "name": "Local 0",
       "symbol": "var_local_9"
+    },
+    {
+      "id": "6",
+      "name": "isDeathFall",
+      "symbol": "var_isdeathfall"
+    },
+    {
+      "id": "7",
+      "name": "tunnelUnlockedGrates",
+      "symbol": "var_tunnelunlockedgrates"
     }
   ]
 }

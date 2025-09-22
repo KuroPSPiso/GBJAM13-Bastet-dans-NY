@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2b9f8e84-ec02-4514-8d9b-80b71b1e6e53",
+  "name": "t-up-ladder",
+  "symbol": "bg_t_up_ladder",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "t-up-ladder.png",
+  "tileColors": ""
+}

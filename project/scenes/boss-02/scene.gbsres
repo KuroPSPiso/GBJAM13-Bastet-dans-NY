@@ -1,0 +1,120 @@
+{
+  "_resourceType": "scene",
+  "id": "361f9f45-9e16-47ae-8d1a-1c80f4975863",
+  "_index": 20,
+  "name": "boss-02",
+  "backgroundId": "2ad266e2-4caa-45dc-87dc-596317723fb3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1856,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ohh",
+          "A tiny kitty cat",
+          "Are you lost\nlittle one?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a186c41d-4b4a-4a61-8bdb-21e9638e4c06"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "*ehw*"
+        ],
+        "__section": "text",
+        "avatarId": "92db7afb-bdfa-4dc4-a248-a0a49801a4d0",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c731c9eb-f963-4b2e-862c-c5864964fa8a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This my domain",
+          "I'll let no one\npass",
+          "Now SCRAM!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e2e4c14b-54cb-4b6b-b326-3b22797affed"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d062c50e-34e4-450b-82e2-c27ae675238f",
+        "x": {
+          "type": "number",
+          "value": 34
+        },
+        "y": {
+          "type": "number",
+          "value": 38
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
+      },
+      "id": "014a156a-b41f-4124-81be-8a8ee64cd506"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a16f7fe7-caa7-4d4b-b6a0-80a531acd042"
+}

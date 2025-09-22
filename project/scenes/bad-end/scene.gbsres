@@ -1,0 +1,99 @@
+{
+  "_resourceType": "scene",
+  "id": "816bd4a5-66c3-4cc6-82f7-791bde79d10c",
+  "_index": 14,
+  "name": "bad-end",
+  "backgroundId": "6a221013-850c-407f-8411-db7350bbc61a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 1232,
+  "y": 2360,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "aa770331-9dac-4823-b489-12e37d832421"
+      },
+      "id": "ff9cbea6-79df-43cd-ab02-ef1b5805ced5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "how do you lose\nall your 9 lives\nin a week"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 5,
+        "closeDelayFrames": 30
+      },
+      "id": "869370f5-7b05-41a4-827d-dd2bca9003f0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "*me-ow*"
+        ],
+        "__section": "behavior",
+        "avatarId": "92db7afb-bdfa-4dc4-a248-a0a49801a4d0",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30
+      },
+      "id": "48aef1fd-c0be-4c1c-942e-12392bc5af30"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c2e1c527-2e5d-497d-969f-69681a4a1b72",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 5
+      },
+      "id": "16010e54-a797-4d27-8b18-6a72bc6ad52c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a16f7fe7-caa7-4d4b-b6a0-80a531acd042"
+}

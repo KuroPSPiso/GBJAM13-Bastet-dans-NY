@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ae272bf3-92ca-4f06-855d-7999f27fcbc4",
+  "name": "tunnels-map",
+  "symbol": "bg_tunnels_map",
+  "width": 64,
+  "height": 64,
+  "imageWidth": 512,
+  "imageHeight": 512,
+  "filename": "tunnels-map.png",
+  "tileColors": ""
+}
